@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Launch Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="menuDesktop">
+            <a href="#">LOGO</a>
+            <div class="linksDesktop">
+                <a href="#theApp"><i class="fa-brands fa-codepen"></i> The App</a>
+                <a href="#Clarity"><i class="fa-solid fa-camera"></i> Clarity</a>
+                <a href="#features"><i class="fa-brands fa-slack"></i> Features</a>
+                <a href="#pricing"><i class="fa-solid fa-dollar-sign"></i> Pricing</a>
+            </div>
+            <button class="toggle" onclick="menuMobileDisplay()"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+
+        <nav id="menuMobile" class="menuMobile">
+            <button class="close" onclick="menuMobileDisplay()"><i class="fa-solid fa-xmark"></i> Close</button>
+            <a href="#theApp"><i class="fa-brands fa-codepen"></i> The App</a>
+            <a href="#Clarity"><i class="fa-solid fa-camera"></i> Clarity</a>
+            <a href="#features"><i class="fa-brands fa-slack"></i> Features</a>
+            <a href="#pricing"><i class="fa-solid fa-dollar-sign"></i> Pricing</a>
+        </nav>
+    </header>
+
+    <div style="margin-bottom: 72px;"></div>
+
+    <main>
+        <div class="home" id="home">
+            <div class="home1">
+                <img src="img/app.jpg" alt="">
+                <div>
+                    <h2>Take photos with our app</h2>
+                    <p>Super simple installment: free of charge</p>
+                    <button>Download <i class="fa-brands fa-android"></i> <i class="fa-brands fa-apple"></i> <i class="fa-brands fa-windows"></i></button>
+                </div>
+
+                <div>
+                    <button>Take Tour ></button>
+                </div>
+                  
+            </div>
+        </div>
+    </main>
+</body>
+</html>
